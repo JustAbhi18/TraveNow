@@ -1,0 +1,378 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+header {
+    background-image: url("../Photos/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    background-color: white;
+}
+
+.Navbar1 ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 0;
+    padding: 10px;
+}
+
+.Navbar1 ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: solid;
+    border-color: transparent;
+}
+
+.Navbar1 ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.Navbar1 ul .active li {
+    border-color: #87ceeb;
+    color: #87ceeb;
+}
+
+.Navbar1 ul li:hover {
+    border-color: #87ceeb;
+    color: #87ceeb;
+}
+
+.Text1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Text1 h1 {
+    font-size: 80px;
+    color: white;
+    padding: 10px;
+}
+
+.Text1 p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.Button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 300px;
+    border-radius: 50px;
+
+}
+
+.Button1 button {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+.Button1 button:hover {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    color: #87ceeb;
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+.FTN {
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+
+.FTN h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.FTN p {
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.ForeignTrips {
+    display: flex;
+    justify-content: grid;
+    align-items: top;
+    padding: 20px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.ForeignTrips div {
+    border-style: none;
+    border-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), 0 6px 10px rgba(0, 0, 0, 0.6);
+}
+
+.ForeignTrips div img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+
+.ForeignTrips h3 {
+    font-size: x-large;
+    margin: 15px;
+}
+
+.ForeignTrips p {
+    font-size: 15px;
+    margin: 15px;
+}
+
+.ForeignTrips a {
+    text-decoration: none;
+    color: black;
+}
+
+.MV {
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+
+.MV h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.MV p {
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.MustVisit {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.MustVisit div img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.MustVisit div {
+    border-style: none;
+    border-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), 0 6px 10px rgba(0, 0, 0, 0.6);
+}
+
+.MustVisit h3 {
+    font-size: x-large;
+    margin: 15px;
+}
+
+.MustVisit p {
+    font-size: 15px;
+    margin: 15px;
+}
+
+.MustVisit a {
+    text-decoration: none;
+    color: black;
+}
+
+.off {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.off h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.off p {
+    font-size: large;
+    margin-bottom: 40px;
+}
+
+.offers {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url("../Photos/Agra.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    text-align: left;
+}
+
+.offers h1 {
+    font-size: 60px;
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.offers p {
+    font-size: 25px;
+    margin-left: 40px;
+    color: white;
+}
+
+.offers button {
+    margin-left: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: white
+}
+
+.offers a {
+    color: white;
+    text-decoration: none;
+}
+
+.offers button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+.offers2 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+        url("../Photos/Jaipur2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 50px;
+    text-align: left;
+}
+
+.offers2 h1 {
+    font-size: 60px;
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.offers2 p {
+    font-size: 25px;
+    margin-left: 40px;
+    color: white;
+}
+
+.offers2 button {
+    margin-left: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: white
+}
+
+.offers2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.offers2 button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+.Itineraries {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: whitesmoke;
+}
+
+.Itineraries div img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.Itineraries div {
+    border-style: none;
+    border-color: aliceblue;
+    border-radius: 20px;
+    width: 300px;
+    height: 360px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), 0 6px 10px rgba(0, 0, 0, 0.6);
+}
+
+.Itineraries h3 {
+    font-size: x-large;
+    margin: 15px;
+}
+
+.Itineraries a {
+    text-decoration: none;
+    color: black;
+}
+
+.itti {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.itti h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.itti p {
+    font-size: large;
+    margin-bottom: 20px;
+
+}
+
+.Fot {
+    text-align: center;
+    margin-top: 20px;
+}

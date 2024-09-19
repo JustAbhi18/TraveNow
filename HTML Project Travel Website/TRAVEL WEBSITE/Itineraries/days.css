@@ -1,0 +1,102 @@
+* {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+}
+
+.Navbar1 ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.Navbar1 ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid;
+    border-width: 4px;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.Navbar1 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.Navbar1 ul .active li {
+    color: black;
+    border-color: #87ceeb;
+}
+
+.Navbar1 ul li:hover {
+    border-bottom: 1px solid;
+    border-width: 4px;
+    border-color: #87ceeb;
+    color: black;
+}
+
+.Text1 {
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+
+.Text1 h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.Text1 p {
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.ForeignTrips {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.ForeignTrips div img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.ForeignTrips div {
+    border-style: none;
+    border-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), 0 6px 10px rgba(0, 0, 0, 0.6);
+}
+
+.ForeignTrips h3 {
+    font-size: x-large;
+    margin: 15px;
+}
+
+.ForeignTrips p {
+    font-size: 15px;
+    margin: 15px;
+}
+
+.ForeignTrips a {
+    text-decoration: none;
+    color: black;
+}

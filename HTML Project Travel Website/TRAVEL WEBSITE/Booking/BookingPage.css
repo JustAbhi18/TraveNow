@@ -1,0 +1,225 @@
+* {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+}
+
+.Navbar1 ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.Navbar1 ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid;
+    border-width: 4px;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.Navbar1 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.Navbar1 ul .active li {
+    color: black;
+    border-color: #87ceeb;
+}
+
+.Navbar1 ul li:hover {
+    border-bottom: 1px solid;
+    border-width: 4px;
+    border-color: #87ceeb;
+    color: black;
+}
+
+.Text1 {
+    text-align: left;
+    margin: 40px;
+    font-size: large;
+}
+
+.Text1 h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.Images {
+    display: flex;
+    margin-left: 40px;
+    height: 300px;
+    width: 155vh;
+    border-style: none;
+    border-color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6), 0 8px 16px rgba(0, 0, 0, 0.6);
+    margin-bottom: 40px;
+
+
+}
+
+.Images img {
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.Images div {
+    margin: 20px;
+    font-size: 17px;
+}
+
+.Images div h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.Images div p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(70, 70, 70);
+}
+
+.Images .Price {
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 80px;
+
+}
+
+.Images2 {
+    display: flex;
+    margin-left: 40px;
+    height: 300px;
+    width: 155vh;
+    border-style: none;
+    border-color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6), 0 8px 16px rgba(0, 0, 0, 0.6);
+    margin-bottom: 40px;
+
+}
+
+.Images2 img {
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.Images2 div {
+    margin: 20px;
+    font-size: 17px;
+}
+
+.Images2 div h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.Images2 div p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(70, 70, 70);
+}
+
+.Images2 .Price2 {
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 80px;
+
+}
+
+.Images3 {
+    display: flex;
+    margin-left: 40px;
+    height: 300px;
+    width: 155vh;
+    border-style: none;
+    border-color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6), 0 8px 16px rgba(0, 0, 0, 0.6);
+    margin-bottom: 40px;
+
+}
+
+.Images3 img {
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.Images3 div {
+    margin: 20px;
+    font-size: 17px;
+}
+
+.Images3 div h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+
+}
+
+.Images3 div p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(70, 70, 70);
+}
+
+.Images3 .Price3 {
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 80px;
+
+}
+
+.Images4 {
+    display: flex;
+    margin-left: 40px;
+    height: 300px;
+    width: 155vh;
+    border-style: none;
+    border-color: white;
+    border-radius: 50px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6), 0 8px 16px rgba(0, 0, 0, 0.6);
+    margin-bottom: 40px;
+
+}
+
+.Images4 img {
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.Images4 div {
+    font-size: 17px;
+    margin: 20px;
+}
+
+.Images4 div h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.Images4 div p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(70, 70, 70);
+}
+
+.Images4 .Price4 {
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 80px;
+
+}

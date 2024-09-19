@@ -1,0 +1,91 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+header {
+    background-image: url("../Photos/banner4.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    background-color: white;
+}
+
+.Navbar1 ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 0;
+    padding: 10px;
+}
+
+.Navbar1 ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: solid;
+    border-color: transparent;
+}
+
+.Navbar1 ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.Navbar1 ul .active li {
+    border-color: #87ceeb;
+    color: #87ceeb;
+}
+
+.Navbar1 ul li:hover {
+    border-color: #87ceeb;
+    color: #87ceeb;
+}
+
+.Text1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Text1 h1 {
+    font-size: 80px;
+    color: Black;
+    padding: 10px;
+}
+
+.Text1 p {
+    font-size: 20px;
+    color: Black;
+    margin-bottom: 10px;
+}
+
+.Button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 300px;
+    border-radius: 50px;
+}
+
+.Button1 button {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    color: white;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+.Button1 button:hover {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    color: #87ceeb;
+    border-color: rgba(0, 0, 0, 0.6);
+}
